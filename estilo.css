@@ -2,7 +2,10 @@
   font-family: "Jedi";
   src: url('fonts/Starjhol.ttf');
 }
-@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;600&display=swap');
+@font-face {
+  font-family: "Lato";
+  src: url('fonts/Lato-Regular.ttf');
+}
 *{
   margin: 0;
   padding: 0;  
@@ -63,7 +66,7 @@ main{
 }
 main p{
   padding: 8px;
-  font-family: 'Edu SA Beginner', cursive;
+  font-family: "Lato";
   font-size: 20px;
   color: var(--cor1);
   text-align: justify;
@@ -95,7 +98,7 @@ footer{
   height: 30px;
   width: 100%;
   color: var(--cor6);
-  font-family: 'Edu SA Beginner', cursive;
+  font-family: "Lato";
   text-align: center;
   background-color: var(--cor3);
 }
